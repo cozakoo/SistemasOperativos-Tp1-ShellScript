@@ -1,0 +1,18 @@
+# !/bin/bash
+# Desarrollar un script que reciba un nombre de archivo como primer argumento y ordene el contenido del mismo lina a linea, alfabeticamente de forma ascendente o descendente, de acuerdo a si el segundo parametro es '-A' o '-Z'. Verificar que el script reciba los 2 argumentos, sino mostrar la forma de uso.
+
+#clear
+
+if [ -f $1 ]; then
+	if [ $2 = "-Z"  -o $2 = "-z" ];then
+		sort -r $1
+	else
+		if [ $2 = "-A" -o  $2 = "-a" ]; then
+			sort -b $1
+		else
+			echo "ERROR: Segundo argumento no valido. Ingrese -Z o -A"
+		fi
+	fi
+else
+	echo "ERROR: Archivo no tiene extension .txt"
+fi

@@ -1,0 +1,41 @@
+Martin, te dejo comentarios punto por punto.
+
+Shell Commands
+
+1	a. Correcto, 'cat' concatena e imprime en salida estándar
+
+	b. Correcto, 'exit' termina o sale de la consola/terminal actual
+
+	c. Correcto, 'kill' en realidad envía señales, no siempre mata el proceso
+
+	d. Correcto
+
+	e. Correcto
+
+2	Correcto
+
+3	a. Correcto
+
+	b. Correcto
+
+/*****************/
+
+Scripts
+
+1	a. Correcto
+
+	b. No entregado
+
+2. Correcto
+
+3. Correcto
+
+4. Correcto
+
+5. Falta describir qué hace. La mejora de código sería eliminar líneas duplicadas en la instrucción de uso.
+
+6. Correcto
+
+7. La explicación es incompleta, el script tiene dos formas de trabajo según los parámetros que recibe.
+
+8. Bien pero la descripción de qué hace podría ser un poco mejor. El script busca un patrón dentro del contenido de los archivos .c y .h del directorio actual.

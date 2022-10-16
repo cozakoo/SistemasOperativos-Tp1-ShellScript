@@ -1,0 +1,15 @@
+#! /bin/bash
+# Construir un script que reciba argumetos e imprima cada uno en lineas separadas utilizando la estructura de repeticion while
+
+
+clear
+
+CONTADOR=0
+
+while [ "$*" ]
+
+do
+	let CONTADOR=$CONTADOR+1
+	echo -e "$1\n"
+	shift
+done

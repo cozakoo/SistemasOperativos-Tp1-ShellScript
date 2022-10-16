@@ -1,0 +1,10 @@
+#! /bin/bash
+# ejercicio 3. Rehacer el script del punto 1, utilizando un for en lugar de while
+
+clear
+
+for ((;;)) 
+do
+	echo -e "\033[H"
+	ps
+done
